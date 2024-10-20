@@ -1,0 +1,13 @@
+#用aof的本名邊的一首曲
+(tempo! 120)
+
+piano:
+  [{d c8}4 g2 d4 | d {a a8} f2]*4 #主旋律
+organ:
+  o3 [d1/c/g | a1/d/f]*4 #和弦
+electric-bass:
+  o2 [{d c8}4 g2 d4 | d {a a8} f2]*4 #低音
+midi-percussion: #鼓組
+  V1:o1 [{b b8}4 r b r | b {b b8}4 b r]*4
+  V2:o2 [r e r {e e} | r e r {e e}]*4
+  V3:o2 [f+8 f+ f+ a+ f+ f+ f+ f+ | f+8 f+ f+ a+ f+ f+ f+ f+]*4
