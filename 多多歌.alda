@@ -1,0 +1,12 @@
+Am = a/c/e
+Cmoj = c/e/g
+Gmoj = g/b/d
+Em = e/g/b
+Fmoj = f/a/c
+Dm = d/f/a
+Emoj = e/g+/b
+(tempo! 80)
+piano:
+	Am*4 | Cmoj*4 | Gmoj*4 | Em*4 | Fmoj*4 | Dm*4 | Emoj*4 | > Am*4 |
+electric-guitar-overdrive:
+	o3 {a e a c}*32 | 
