@@ -1,1 +1,27 @@
-# -
+字母轉音符表
+A = C
+B = D
+C = E
+D = F
+E = G
+F = A
+G = B
+H = C
+I = D
+J = E
+K = F
+L = G
+M = A
+N = B
+O = C
+P = D
+Q = E
+R = F
+S = G
+T = A
+U = B
+V = C
+W = D
+X = E
+Y = F
+Z = G
