@@ -1,12 +1,13 @@
 #用aof的本名邊的一首曲
 (tempo! 120)
-
-piano:
+#和弦進行 g7sus4 f6
+midi-recorder:
   [{d c8}4 g2 d4 | d {a a8} f2]*4 #主旋律
 organ:
-  o3 [d1/c/g | a1/d/f]*4 #和弦
+  (p)
+  o3 [d2./c/g/f d8/c/g/f*2 | a2./d/f/c a8/c/g/f*2]*4 #和弦
 electric-bass:
-  o2 [{d c8}4 g2 d4 | d {a a8} f2]*4 #低音
+  o2 [g4 g g (quant 10) g8 (quant 99) f | f4 f f (quant 10) f8 (quant 99) g]*4 #低音
 midi-percussion: #鼓組
   V1:o1 [{b b8}4 r b r | b {b b8}4 b r]*4
   V2:o2 [r e r {e e} | r e r {e e}]*4
