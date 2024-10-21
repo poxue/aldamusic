@@ -1,0 +1,4 @@
+(tempo! 80)
+
+piano:
+r1 | [a4 d {g a} c | d {g b} c {g b d} | c c g {d a}]*2
