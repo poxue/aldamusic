@@ -25,3 +25,5 @@ W = D
 X = E
 Y = F
 Z = G
+每一首的音樂檔
+https://www.bandlab.com/post/c811ae48-8a8f-ef11-8474-6045bd375453

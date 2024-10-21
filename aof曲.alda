@@ -2,10 +2,9 @@
 (tempo! 120)
 #和弦進行 g7sus4 f6
 midi-recorder:
-  [{d c8}4 g2 d4 | d {a a8} f2]*4 #主旋律
-organ:
-  (p)
-  o3 [d2./c/g/f d8/c/g/f*2 | a2./d/f/c a8/c/g/f*2]*4 #和弦
+  o5 [{d c8}4 g2 d4 | d {a a8} f2]*4 #主旋律
+guitar:
+  o4 [g4/d/f/a*2 g8/d/f/a*4 | f4/a/c/e*2 f8/a/c/e*4]*4 #和弦
 electric-bass:
   o2 [g4 g g (quant 10) g8 (quant 99) f | f4 f f (quant 10) f8 (quant 99) g]*4 #低音
 midi-percussion: #鼓組
