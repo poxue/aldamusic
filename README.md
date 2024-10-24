@@ -27,4 +27,7 @@ Y = F
 Z = G
 
 每一首的音樂檔
+aof
 https://www.bandlab.com/post/c811ae48-8a8f-ef11-8474-6045bd375453
+mizma
+https://www.bandlab.com/post/a7b2ecd0-f491-ef11-8474-6045bd375453
