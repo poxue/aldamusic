@@ -1,4 +1,15 @@
 (tempo! 80)
 
-piano:
-r1 | [a4 d {g a} c | d {g b} c {g b d} | c c g {d a}]*2
+harpsichord: #主旋律
+r1 | [a4 d {g a} c | d {g b} c {g b d} | c c g {d a}]*2 | r1
+midi-percussion: #節奏
+V1: o2 r1 | [c4 r8 c8 c4 r]*6 
+V2: o2 r1 | [r4  d8 r8 r4 d]*6
+V3: o2 r2 a+4 f+ | [f+8 f+ f+ f+]*12
+midi-fretless-bass: #貝斯
+	 o2 r2 r4. {a~g+~g~f+~f~e~d+~d~c+~c~< b~a+~a}8 | [o2 a4 r (quant 20) a8 (quant 99) <e e4  | >d4 r (quant 20) d8 (quant 99) <a a4 | > c4 r (quant 20) c8 (quant 99)<g g4]*2 | 
+viola:
+ (pp)
+ o3 r1 | [a1/c/e/g | d1/f+/a/c | c1/e/g/b]*2 | 
+trumpet:
+o5 c c g {d a} | r1*6 | a4 d {g a} c
